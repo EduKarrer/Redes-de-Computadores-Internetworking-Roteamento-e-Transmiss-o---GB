@@ -1,0 +1,52 @@
+{
+  "gerado_em": "2026-11-19T16:21:57",
+  "duracao_s": 165.1,
+  "parametros": {
+    "n_bits": 1000000,
+    "reps": 5,
+    "snrs": [
+      0.0,
+      2.0,
+      4.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0,
+      14.0,
+      16.0,
+      18.0,
+      20.0,
+      22.0,
+      24.0,
+      26.0,
+      28.0,
+      30.0
+    ],
+    "msg_trials": 100,
+    "seed": 20261119,
+    "burst_duty": 0.05,
+    "burst_len": 50.0,
+    "burst_extra_db": 15.0
+  },
+  "mensagem_ascii": "Redes de Computadores - UNISINOS - Trabalho II: codificacao de linha e modulacao digital. Prof. Cristiano Bonato Both.",
+  "codigos_de_linha": [
+    "nrz",
+    "manchester",
+    "ami"
+  ],
+  "modulacoes": [
+    "bpsk",
+    "qpsk",
+    "16qam"
+  ],
+  "canais": [
+    "awgn",
+    "burst"
+  ],
+  "definicao_snr": "Es/N0 (dB) do ruido de fundo, Es=1",
+  "quick": false,
+  "python": "3.14.4",
+  "numpy": "2.5.5",
+  "scipy": "1.18.1",
+  "pandas": "3.1.1"
+}
